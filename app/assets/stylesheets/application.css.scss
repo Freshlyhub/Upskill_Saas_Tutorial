@@ -43,6 +43,21 @@ h1, h2, h3 {
   }
 }
 
+.navbar-brand{
+  font-family:'open sans', sans serif;
+  font-weight:800;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  Background:white;
+}
+.navbar-default .navbar-toggle{
+  border:2px solid white;
+  &:hover &:focus{
+      background-color:#b06ab3;
+  }
+}
+
 
 // Home page styles
 .home-callout {
